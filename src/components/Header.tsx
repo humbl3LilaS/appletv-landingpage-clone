@@ -5,6 +5,7 @@ export default function Header() {
     return (
         <>
             <header className={"bg-backgroundContrast text-white"}>
+                {/*Todo: Add Nav Components*/}
                 <Container className={"min-h-14 flex items-center"}>
                     <a href={"/"} className={"h-11 px-5 flex items-center -ml-5"}>
                         <svg xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +22,7 @@ export default function Header() {
             <div className={"sticky top-0 bg-backgroundContrast text-white"}>
                 <Container className={"min-h-14 flex items-center justify-between"}>
                     <p className={"text-xl font-semibold "}>Apple TV+</p>
-                    <Button>Testing</Button>
+                    <Button>Stream Now</Button>
                 </Container>
             </div>
         </>

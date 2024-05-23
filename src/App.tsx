@@ -1,4 +1,5 @@
 import Header from "./components/Header.tsx";
+import Hero from "./components/Hero.tsx";
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
         <>
             <Header/>
             <main className={"h-[300vh]"}>
-                hello
+                <Hero/>
             </main>
         </>
     );
