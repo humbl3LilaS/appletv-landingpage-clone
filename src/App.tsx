@@ -1,5 +1,6 @@
 import Header from "./components/Header.tsx";
 import Hero from "./components/Hero.tsx";
+import Usps from "./components/Usps.tsx";
 
 function App() {
 
@@ -7,7 +8,12 @@ function App() {
     return (
         <>
             <Header/>
-            <Hero/>
+            <main>
+                <div className={"bg-background"}>
+                    <Hero/>
+                    <Usps/>
+                </div>
+            </main>
         </>
     );
 }

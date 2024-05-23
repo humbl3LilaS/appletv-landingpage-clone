@@ -22,7 +22,7 @@ export default function Hero() {
     });
     const opacity = useTransform(scrollYProgress, [0, 0.7, 1], [1, 1, 0]);
     return (
-        <div className={"relative h-[300vh] bg-background text-white"}>
+        <div className={"relative text-white"}>
             <motion.div
                 ref={videoContainerRef}
                 className={"w-full h-[200vh] absolute -top-[--header-height] left-0"}
