@@ -3,7 +3,7 @@ import FadeIn from "./FadeIn.tsx";
 
 export default function Usps() {
     return (
-        <Container className={"relative max-w-[692px] py-36 space-y-12 text-4xl text-white font-bold z-10"}>
+        <Container className={"relative  py-36 space-y-12 text-4xl text-white font-bold z-10"}>
             <FadeIn>
                 <p>New Apple Originals every months - always ad-free</p>
             </FadeIn>
