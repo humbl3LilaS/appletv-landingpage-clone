@@ -7,9 +7,7 @@ function App() {
     return (
         <>
             <Header/>
-            <main className={"h-[300vh]"}>
-                <Hero/>
-            </main>
+            <Hero/>
         </>
     );
 }
