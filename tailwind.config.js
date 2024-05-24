@@ -35,6 +35,9 @@ export default {
       
     },
     extend    : {
+      marginTop: {
+        "carousel-gap" : "calc(100vh-(60vw*(16/9)/2)",
+      },
       keyframes: {
         "carousel-move": {
           "0%"  : {transform: "translateX(0)"},
